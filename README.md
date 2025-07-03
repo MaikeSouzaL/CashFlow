@@ -1,50 +1,54 @@
-# Welcome to your Expo app 👋
+# 💰 CashFlow
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bem-vindo ao **CashFlow**, seu aplicativo de gestão financeira pessoal desenvolvido com Expo!
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Get started
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+1. **Instale as dependências**
 
 ```bash
-npm run reset-project
+  npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. **Inicie o aplicativo**
 
-## Learn more
+```bash
+  npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+**Ao iniciar, você poderá abrir o aplicativo em**
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- Build de desenvolvimento
 
-## Join the community
+- Emulador Android
 
-Join our community of developers creating universal apps.
+- Simulador iOS
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Expo Go, um ambiente para testar rapidamente o app no seu dispositivo
+
+---
+
+**✨ Funcionalidades**
+- **Autenticação:** Login e registro de usuários
+- **Dashboard:** Visualize suas finanças de forma simples e intuitiva
+- **Controle de Gastos:** Registre e categorize suas despesas
+- **Receitas:** Adicione suas fontes de renda
+- **Estatísticas:** Gráficos para análise financeira
+- **Perfil:** Gerencie suas informações pessoais
+- **Autenticação:** Login e registro de usuários
+---
+**Tecnologias utilizadas**
+- React Native
+- Expo Router
+- Firebase Authentication
+- Firestore Database
+- Phosphor Icons
+
+**Estrutura do projeto**
+- /app: Contém todas as telas do aplicativo usando o sistema de rotas do Expo Router
+- /components: Componentes reutilizáveis
+- /context: Gerenciamento de estado global e autenticação
+- /config: Configurações do Firebase e outras integrações
+- /utils: Funções auxiliares e constantes
