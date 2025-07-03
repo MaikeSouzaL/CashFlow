@@ -1,29 +1,47 @@
-# Bem-vindo ao CashFlow 💰
+# 💰 CashFlow
 
-Este é um aplicativo de gestão financeira pessoal desenvolvido com Expo.
+Bem-vindo ao **CashFlow**, seu aplicativo de gestão financeira pessoal desenvolvido com Expo!
 
-## Get started
+---
 
-1. Instale as dependências
+## 🚀 Get started
+
+1. **Instale as dependências**
 
    ```bash
    npm install
    ```
 
-2. Inicie o aplicativo
+2. **Inicie o aplicativo**
 
-   ```bash
-   npx expo start
-   ```
+```bash
+  npx expo start
+```
 
-Na saída, você encontrará opções para abrir o aplicativo em:
+Ao iniciar, você poderá abrir o aplicativo em:
+* Ao iniciar, você poderá abrir o aplicativo em:
 
-Na saída, você encontrará opções para abrir o aplicativo em:
+* Build de desenvolvimento
 
-build de desenvolvimento
-emulador Android
-simulador iOS
-Expo Go, um ambiente para testar o aplicativo
+* Emulador Android
+
+* Simulador iOS
+
+ *Expo Go, um ambiente para testar rapidamente o app no seu dispositivo
+
+✨ Funcionalidades
+
+Autenticação: Login e registro de usuários
+
+Dashboard: Visualização simples e intuitiva das finanças
+
+Controle de Gastos: Cadastro e categorização de despesas
+
+Receitas: Adição de fontes de renda
+
+Estatísticas: Gráficos e análises financeiras
+
+Perfil: Gerenciamento de informações pessoais
 
 Funcionalidades
 Autenticação: Login e registro de usuários
