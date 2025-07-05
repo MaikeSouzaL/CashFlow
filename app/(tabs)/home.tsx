@@ -3,27 +3,22 @@ import Typotext from "@/components/TypoText";
 import { auth } from "@/config/firebase";
 import { signOut } from "firebase/auth";
 
-import { useAuth } from "@/context/authContext";
+import ScreenWrapper from "@/components/ScreenWrapper";
 import { colors } from "@/ultils/theme";
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet } from "react-native";
 
 export default function Home() {
-  
-  const { user } = useAuth();
-  console.log("User:", user);
-
   const handlerLogout = async () => {
     await signOut(auth);
   };
 
   return (
-    <View>
-      <Text>Home</Text>
+    <ScreenWrapper>
       <Button onPress={handlerLogout}>
         <Typotext color={colors.black}>Sair</Typotext>
       </Button>
-    </View>
+    </ScreenWrapper>
   );
 }
 
